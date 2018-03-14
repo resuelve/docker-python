@@ -1,5 +1,5 @@
 FROM alpine:3.7
-LABEL maintainer="raulumb@gmail.com"
+LABEL maintainer="rmontesg@resuelve.mx"
 
 ENV PYTHONUNBUFFERED 1
 
