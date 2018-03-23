@@ -7,5 +7,5 @@ RUN apk --no-cache add -U build-base
 RUN apk --no-cache add -U python python-dev py-pip py-numpy
 RUN apk --no-cache add -U python3 python3-dev py-numpy
 
-RUN apk --no-cache add -U postgresql-dev libressl-dev libffi-dev openblas-dev
+RUN apk --no-cache add -U postgresql-dev libressl-dev libffi-dev openblas-dev ffmpeg
 RUN apk --no-cache add ca-certificates
