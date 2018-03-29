@@ -8,10 +8,10 @@ Docker Image para Python 3.
 docker build --tag resuelve/python:3 .
 ```
 
-## Corremos un contenedor y entrar a la shell.
+## Corremos un contenedor y entramos al shell.
 
 ```shell
-docker run -t -i resuelve/python:3 sh
+docker run --rm -ti resuelve/python:3 sh
 ```
 
 ## Cargar imagen en docker hub
