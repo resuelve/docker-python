@@ -14,3 +14,4 @@ RUN pip install pandas==0.22.0
 RUN pip install python-dateutil==2.7.2
 RUN pip install pytz==2018.3
 RUN pip install six==1.11.0
+RUN pip install scipy==1.0.0
