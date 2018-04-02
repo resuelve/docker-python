@@ -16,3 +16,4 @@ RUN pip3 install pandas==0.22.0
 RUN pip3 install python-dateutil==2.7.2
 RUN pip3 install pytz==2018.3
 RUN pip3 install six==1.11.0
+RUN pip3 install scipy==1.0.0
